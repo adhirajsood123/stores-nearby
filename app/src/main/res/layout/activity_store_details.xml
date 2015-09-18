@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brandLogo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brandName"
+        android:text="Brand name"
+        android:textColor="#5d5d5d"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#5d5d5d"
+        android:paddingTop="5sp"
+        android:id="@+id/brandAddress"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brandCityState"
+        android:text="City and state"
+        android:textColor="#5d5d5d"
+        android:paddingTop="5sp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brandNumber"
+        android:textColor="#5d5d5d"
+        android:text="999999999"
+        android:paddingTop="5sp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
